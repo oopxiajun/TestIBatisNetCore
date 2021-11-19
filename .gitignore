@@ -1,0 +1,13 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/TestIBatisNetCore/TestIBatisNetCore.Business/bin/Debug/net6.0
+/TestIBatisNetCore/TestIBatisNetCore.Business/obj
+/TestIBatisNetCore/.vs/TestIBatisNetCore
+/TestIBatisNetCore/TestIBatisNetCore.Domain/bin/Debug/net6.0
+/TestIBatisNetCore/TestIBatisNetCore.Domain/obj
+/TestIBatisNetCore/TestIBatisNetCore.Persistence/bin/Debug/net6.0
+/TestIBatisNetCore/TestIBatisNetCore.Persistence/obj
+/TestIBatisNetCore/TestIBatisNetCore.WebApi/bin/Debug/net6.0
+/TestIBatisNetCore/TestIBatisNetCore.WebApi/obj

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIBatisNetCore.WebApi", "TestIBatisNetCore.WebApi\TestIBatisNetCore.WebApi.csproj", "{CC4DB2F5-CEBD-402D-8EFA-6D78E08AA801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIBatisNetCore.Persistence", "TestIBatisNetCore.Persistence\TestIBatisNetCore.Persistence.csproj", "{092A8099-40AD-479E-A7D4-78F43020DF9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBatisNet.Common.Core", "..\..\IBatisNet.Core\IBatisNet.Common.Core\IBatisNet.Common.Core.csproj", "{2D8D99A3-FFD2-47F6-BE98-A0BBE0353B27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBatisNet.DataMapper.Core", "..\..\IBatisNet.Core\IBatisNet.DataMapper.Core\IBatisNet.DataMapper.Core.csproj", "{197DC057-F8C0-4EFB-A05E-44A8786E8C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIBatisNetCore.Domain", "TestIBatisNetCore.Domain\TestIBatisNetCore.Domain.csproj", "{7A850676-6157-4B10-B674-DFAD78C673AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIBatisNetCore.Business", "TestIBatisNetCore.Business\TestIBatisNetCore.Business.csproj", "{A31D2287-B3D0-4807-AE78-07CCAF91F10C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC4DB2F5-CEBD-402D-8EFA-6D78E08AA801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4DB2F5-CEBD-402D-8EFA-6D78E08AA801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4DB2F5-CEBD-402D-8EFA-6D78E08AA801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4DB2F5-CEBD-402D-8EFA-6D78E08AA801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092A8099-40AD-479E-A7D4-78F43020DF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092A8099-40AD-479E-A7D4-78F43020DF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092A8099-40AD-479E-A7D4-78F43020DF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092A8099-40AD-479E-A7D4-78F43020DF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D8D99A3-FFD2-47F6-BE98-A0BBE0353B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8D99A3-FFD2-47F6-BE98-A0BBE0353B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8D99A3-FFD2-47F6-BE98-A0BBE0353B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8D99A3-FFD2-47F6-BE98-A0BBE0353B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197DC057-F8C0-4EFB-A05E-44A8786E8C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197DC057-F8C0-4EFB-A05E-44A8786E8C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197DC057-F8C0-4EFB-A05E-44A8786E8C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197DC057-F8C0-4EFB-A05E-44A8786E8C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A850676-6157-4B10-B674-DFAD78C673AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A850676-6157-4B10-B674-DFAD78C673AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A850676-6157-4B10-B674-DFAD78C673AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A850676-6157-4B10-B674-DFAD78C673AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31D2287-B3D0-4807-AE78-07CCAF91F10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31D2287-B3D0-4807-AE78-07CCAF91F10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31D2287-B3D0-4807-AE78-07CCAF91F10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31D2287-B3D0-4807-AE78-07CCAF91F10C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8B27EC6-E665-4647-AFAF-94B0F78FE139}
+	EndGlobalSection
+EndGlobal

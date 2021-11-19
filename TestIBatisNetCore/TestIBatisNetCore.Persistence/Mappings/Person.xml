@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="PersonMap" >
+	<resultMaps>
+		<resultMap id="QueryPersonResult" class="PersonModel">
+			<result property="Id" column="id"/>
+			<result property="Name" column="Name"/> 
+		</resultMap> 
+	</resultMaps>
+	
+	
+	<statements>
+		<select id="SelectAllPerson" resultMap="QueryPersonResult" >
+			<![CDATA[  select * from person ]]>
+		</select>
+	</statements>
+</sqlMap>
