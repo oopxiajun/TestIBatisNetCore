@@ -1,11 +1,19 @@
-﻿namespace TestIBatisNetCore.Business
+﻿using BP.Business;
+using TestIBatisNetCore.Domain.Criteriaes;
+using TestIBatisNetCore.Persistence.Interfaces;
+
+namespace TestIBatisNetCore.Business
 {
-    public class Person
+    public class Person : BP.Business.BusinessRule
     {
-        public IList<Domain.Models.PersonModel> GetAllPersonList()
+        Persistence.Interfaces.IPersonDao _personDao;
+        public Person(BusinessRuleContext context) : base(context)
         {
-            Persistence.Implementations.PersonDao personDao = new Persistence.Implementations.PersonDao();
-            return personDao.GetAllPersonList();
+            _personDao = GetDao<IPersonDao>();
+        }
+        public IList<Domain.Models.PersonModel> GetAllPersonList(  PersonCriteria criteria )
+        {
+            return _personDao.QueryPerson(criteria);
         }
     }
 }

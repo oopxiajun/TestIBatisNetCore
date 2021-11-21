@@ -11,3 +11,7 @@
 /TestIBatisNetCore/TestIBatisNetCore.Persistence/obj
 /TestIBatisNetCore/TestIBatisNetCore.WebApi/bin/Debug/net6.0
 /TestIBatisNetCore/TestIBatisNetCore.WebApi/obj
+/TestIBatisNetCore/BP.Business/bin/Debug/net6.0
+/TestIBatisNetCore/BP.Business/obj
+/TestIBatisNetCore/BP.Persistence/bin/Debug/net6.0
+/TestIBatisNetCore/BP.Persistence/obj

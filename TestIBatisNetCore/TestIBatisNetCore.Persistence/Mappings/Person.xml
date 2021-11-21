@@ -3,14 +3,22 @@
 	<resultMaps>
 		<resultMap id="QueryPersonResult" class="PersonModel">
 			<result property="Id" column="id"/>
-			<result property="Name" column="Name"/> 
-		</resultMap> 
+			<result property="Name" column="Name"/>
+		</resultMap>
 	</resultMaps>
-	
-	
+
+
 	<statements>
-		<select id="SelectAllPerson" resultMap="QueryPersonResult" >
+		<select id="QueryPerson" resultMap="QueryPersonResult" parameterClass="PersonCriteria" >
 			<![CDATA[  select * from person ]]>
+			<dynamic prepend="WHERE">
+				<isNotEmpty prepend="AND" property="Id">
+					<![CDATA[id = #Id#]]>
+				</isNotEmpty>
+				<isNotEmpty prepend="AND" property="Name">
+					<![CDATA[name = #Name#]]>
+				</isNotEmpty>
+			</dynamic>
 		</select>
 	</statements>
 </sqlMap>

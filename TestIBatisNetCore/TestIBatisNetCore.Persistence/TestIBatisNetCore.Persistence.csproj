@@ -31,6 +31,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\IBatisNet.Core\IBatisNet.Common.Core\IBatisNet.Common.Core.csproj" />
     <ProjectReference Include="..\..\..\IBatisNet.Core\IBatisNet.DataMapper.Core\IBatisNet.DataMapper.Core.csproj" />
+    <ProjectReference Include="..\BP.Business\BP.Business.csproj" />
+    <ProjectReference Include="..\BP.Persistence\BP.Persistence.csproj" />
     <ProjectReference Include="..\TestIBatisNetCore.Domain\TestIBatisNetCore.Domain.csproj" />
   </ItemGroup>
 

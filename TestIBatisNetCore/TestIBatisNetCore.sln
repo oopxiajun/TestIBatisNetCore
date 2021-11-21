@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIBatisNetCore.WebApi", "TestIBatisNetCore.WebApi\TestIBatisNetCore.WebApi.csproj", "{CC4DB2F5-CEBD-402D-8EFA-6D78E08AA801}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestIBatisNetCore.WebApi", "TestIBatisNetCore.WebApi\TestIBatisNetCore.WebApi.csproj", "{CC4DB2F5-CEBD-402D-8EFA-6D78E08AA801}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIBatisNetCore.Persistence", "TestIBatisNetCore.Persistence\TestIBatisNetCore.Persistence.csproj", "{092A8099-40AD-479E-A7D4-78F43020DF9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestIBatisNetCore.Persistence", "TestIBatisNetCore.Persistence\TestIBatisNetCore.Persistence.csproj", "{092A8099-40AD-479E-A7D4-78F43020DF9C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBatisNet.Common.Core", "..\..\IBatisNet.Core\IBatisNet.Common.Core\IBatisNet.Common.Core.csproj", "{2D8D99A3-FFD2-47F6-BE98-A0BBE0353B27}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBatisNet.DataMapper.Core", "..\..\IBatisNet.Core\IBatisNet.DataMapper.Core\IBatisNet.DataMapper.Core.csproj", "{197DC057-F8C0-4EFB-A05E-44A8786E8C0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIBatisNetCore.Domain", "TestIBatisNetCore.Domain\TestIBatisNetCore.Domain.csproj", "{7A850676-6157-4B10-B674-DFAD78C673AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestIBatisNetCore.Domain", "TestIBatisNetCore.Domain\TestIBatisNetCore.Domain.csproj", "{7A850676-6157-4B10-B674-DFAD78C673AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIBatisNetCore.Business", "TestIBatisNetCore.Business\TestIBatisNetCore.Business.csproj", "{A31D2287-B3D0-4807-AE78-07CCAF91F10C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestIBatisNetCore.Business", "TestIBatisNetCore.Business\TestIBatisNetCore.Business.csproj", "{A31D2287-B3D0-4807-AE78-07CCAF91F10C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BP.Business", "BP.Business\BP.Business.csproj", "{AAD18676-9D6E-477E-802B-48B06B6D5578}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BP.Persistence", "BP.Persistence\BP.Persistence.csproj", "{F209472F-493E-4A4B-9050-EEF695EDDF18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{A31D2287-B3D0-4807-AE78-07CCAF91F10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A31D2287-B3D0-4807-AE78-07CCAF91F10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A31D2287-B3D0-4807-AE78-07CCAF91F10C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD18676-9D6E-477E-802B-48B06B6D5578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD18676-9D6E-477E-802B-48B06B6D5578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD18676-9D6E-477E-802B-48B06B6D5578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD18676-9D6E-477E-802B-48B06B6D5578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F209472F-493E-4A4B-9050-EEF695EDDF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F209472F-493E-4A4B-9050-EEF695EDDF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F209472F-493E-4A4B-9050-EEF695EDDF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F209472F-493E-4A4B-9050-EEF695EDDF18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

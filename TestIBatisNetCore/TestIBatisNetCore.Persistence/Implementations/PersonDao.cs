@@ -1,14 +1,10 @@
-﻿using IBatisNet.DataMapper;
-
-namespace TestIBatisNetCore.Persistence.Implementations
+﻿namespace TestIBatisNetCore.Persistence.Implementations
 {
-    public class PersonDao:Interfaces.IPersonDao
+    public class PersonDao : BP.Persistence.BaseDao, Interfaces.IPersonDao
     {
-        public IList<Domain.Models.PersonModel> GetAllPersonList()
+        public IList<Domain.Models.PersonModel> QueryPerson(Domain.Criteriaes.PersonCriteria criteria)
         {
-            ISqlMapper mapper = Mapper.Instance();
-            IList<Domain.Models.PersonModel> ListPerson = mapper.QueryForList<Domain.Models.PersonModel>("SelectAllPerson", null);  //这个"SelectAllPerson"就是xml映射文件的Id
-            return ListPerson;
+            return base.QueryList<Domain.Models.PersonModel>("QueryPerson", criteria);  //这个"SelectAllPerson"就是xml映射文件的Id              ;
         }
     }
 }

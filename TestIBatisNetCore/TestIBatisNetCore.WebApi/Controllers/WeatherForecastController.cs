@@ -18,7 +18,7 @@ namespace TestIBatisNetCore.WebApi.Controllers
             _logger = logger;
         }
 
-        [HttpGet(  "GetWeatherForecast")]
+        [HttpGet("GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
@@ -30,10 +30,10 @@ namespace TestIBatisNetCore.WebApi.Controllers
             .ToArray();
         }
         [HttpGet("GetPerson")]
-        public Object GetPerson()
+        public Object GetPerson(string name)
         {
-            Business.Person person = new Business.Person();
-            var list = person.GetAllPersonList();
+            Business.Person person = new Business.Person(new BP.Business.BusinessRuleContext("11"));
+            var list = person.GetAllPersonList(new Domain.Criteriaes.PersonCriteria() { Name = name });
             return list;
         }
     }

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\IBatisNet.Core\IBatisNet.Common.Core\IBatisNet.Common.Core.csproj" />
+    <ProjectReference Include="..\..\..\IBatisNet.Core\IBatisNet.DataMapper.Core\IBatisNet.DataMapper.Core.csproj" />
+    <ProjectReference Include="..\BP.Persistence\BP.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
