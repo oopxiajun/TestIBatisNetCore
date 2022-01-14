@@ -36,5 +36,15 @@ namespace TestIBatisNetCore.WebApi.Controllers
             var list = person.GetAllPersonList(new Domain.Criteriaes.PersonCriteria() { Name = name });
             return list;
         }
+
+        [HttpGet("GetPersonPage")]
+        public Object GetPersonPaage(string name)
+        {
+            Business.Person person = new Business.Person(new BP.Business.BusinessRuleContext("11"));
+            var criteria = new Domain.Criteriaes.PersonCriteria();
+            criteria.InitFrom(1, 10);
+            var list = person.QueryPaging(criteria);
+            return list;
+        }
     }
 }

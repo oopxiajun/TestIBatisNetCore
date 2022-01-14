@@ -1,0 +1,27 @@
+﻿<sqlMap namespace="Common_PaginationMap">
+
+  <!--<resultMap id="xxxResult"
+             class="xxx"
+             groupBy="RowTotal">
+    <result property="RowTotal"
+            column="RT222"
+            type="int"
+            dbType="NUMBER"/>
+    <result property="Results"
+            resultMapping="xxxMap.xxxResult"/>
+  </resultMap>-->
+
+  <statements>
+    <!--分页开始SQL-->
+    <sql id="BeginPageableSql">
+      <![CDATA[SELECT SQL_CALC_FOUND_ROWS 1 as RT222, I222.* FROM (]]>
+    </sql>
+    <!--分页结束SQL-->
+    <sql id="EndPageableSql">
+      <![CDATA[) I222  LIMIT #StartRowNumber#,#PageSize#]]>
+    </sql>
+    <select id="QueryFoundRows" resultClass="int">
+      <![CDATA[SELECT found_rows()]]>
+    </select>
+  </statements>
+</sqlMap>

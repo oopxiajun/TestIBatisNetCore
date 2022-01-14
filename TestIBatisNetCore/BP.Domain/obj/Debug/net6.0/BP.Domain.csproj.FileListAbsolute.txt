@@ -1,0 +1,11 @@
+F:\GitHub_Code\TestIBatisNetCore\TestIBatisNetCore\BP.Domain\bin\Debug\net6.0\BP.Domain.deps.json
+F:\GitHub_Code\TestIBatisNetCore\TestIBatisNetCore\BP.Domain\bin\Debug\net6.0\BP.Domain.dll
+F:\GitHub_Code\TestIBatisNetCore\TestIBatisNetCore\BP.Domain\bin\Debug\net6.0\ref\BP.Domain.dll
+F:\GitHub_Code\TestIBatisNetCore\TestIBatisNetCore\BP.Domain\bin\Debug\net6.0\BP.Domain.pdb
+F:\GitHub_Code\TestIBatisNetCore\TestIBatisNetCore\BP.Domain\obj\Debug\net6.0\BP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitHub_Code\TestIBatisNetCore\TestIBatisNetCore\BP.Domain\obj\Debug\net6.0\BP.Domain.AssemblyInfoInputs.cache
+F:\GitHub_Code\TestIBatisNetCore\TestIBatisNetCore\BP.Domain\obj\Debug\net6.0\BP.Domain.AssemblyInfo.cs
+F:\GitHub_Code\TestIBatisNetCore\TestIBatisNetCore\BP.Domain\obj\Debug\net6.0\BP.Domain.csproj.CoreCompileInputs.cache
+F:\GitHub_Code\TestIBatisNetCore\TestIBatisNetCore\BP.Domain\obj\Debug\net6.0\BP.Domain.dll
+F:\GitHub_Code\TestIBatisNetCore\TestIBatisNetCore\BP.Domain\obj\Debug\net6.0\ref\BP.Domain.dll
+F:\GitHub_Code\TestIBatisNetCore\TestIBatisNetCore\BP.Domain\obj\Debug\net6.0\BP.Domain.pdb

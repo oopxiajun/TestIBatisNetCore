@@ -7,12 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Mappings\Common\Pagination.xml" />
     <None Remove="Mappings\Person.xml" />
     <None Remove="Provider.config" />
     <None Remove="SqlMap.config" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Mappings\Common\Pagination.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mappings\Person.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
